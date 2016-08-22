@@ -1,7 +1,7 @@
 var censoredWords = ["excited", "reporter", "HongKong"];
 var customerWords = [];
 
-function Fliter(in_words) {
+function fliter(in_words) {
 	// for (idx in censoredWords) {
 	// 	in_words = in_words.replcase(censoredWords[idx], "a fark");
 	// }
@@ -22,6 +22,6 @@ function getFliterWords() {
 	return censoredWords.contac(customerWords);
 }
 
-exports.Fliter = Fliter;
+exports.fliter = fliter;
 exports.addFliterWords = addFliterWords;
 exports.getFliterWords = getFliterWords;

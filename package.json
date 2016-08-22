@@ -1,9 +1,14 @@
 {
 	"name": "fliter",
 	"author": "lsy",
-	"version": "0.0.0.1",
+	"version": "0.0.1",
 	"description": "npm upload test",
 	"main": "fliter words",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/yessirpopesama/word-fliter"
+	},
+	"keywords" : ["fliter", "excited"],
 	"dependencies" : {},
 	"engines": {
 		"node": "*"
