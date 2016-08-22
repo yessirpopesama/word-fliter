@@ -1,0 +1,11 @@
+{
+	"name": "fliter",
+	"author": "lsy",
+	"version": "0.0.0.1",
+	"description": "npm upload test",
+	"main": "fliter words",
+	"dependencies" : {},
+	"engines": {
+		"node": "*"
+	}
+}
