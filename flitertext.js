@@ -2,16 +2,11 @@ var censoredWords = ["excited", "reporter", "HongKong"];
 var customerWords = [];
 
 function fliter(in_words) {
-	// for (idx in censoredWords) {
-	// 	in_words = in_words.replcase(censoredWords[idx], "a fark");
-	// }
-	// for (idx in customerWords) {
-	// 	in_words = in_words.replcase(customerWords[idx], "???");
-	// }
 	var allFliterWords = getFliterWords();
 	for (idx in allFliterWords) {
 		in_words = in_words.replace(allFliterWords[idx], "???");
 	}
+	return in_words;
 }
 
 function addFliterWords(str) {
